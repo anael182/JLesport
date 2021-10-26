@@ -12,13 +12,6 @@
     transition-duration: 0.3s;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #fff;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
@@ -68,6 +61,14 @@
   border-top:  4px solid #f7404b;
 }
 
+.footer_title {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
 video {
   width: 100%;
   max-height: 100%;
@@ -83,4 +84,33 @@ video {
 
 .link_footer:hover {
   border-bottom: 2px solid #f7404b;
+  cursor: pointer;
+}
+
+.navbar-text {
+  background-color: #fff;
+}
+
+.twitter{
+  height: 30px;
+}
+
+.youtube{
+  height: 30px;
+  margin-left: 5px;
+}
+
+.instagram{
+  height: 30px;
+  margin-left: 5px;
+}
+
+.twitch{
+  height: 30px;
+  margin-left: 5px;
+}
+
+.tiktok{
+  height: 30px;
+  margin-left: 5px;
 }
