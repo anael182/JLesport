@@ -76,6 +76,7 @@ video {
 
 .video_background {
   background-color: #050810;
+  margin-bottom:-6px;
 }
 
 .link_footer {
@@ -124,6 +125,8 @@ video {
   height: 100px;
   min-width: 400px;
   width: 300px;
+  border-top: 4px solid #f7404b;
+
 }
 
 .sample-item-2 {
@@ -131,6 +134,8 @@ video {
   height: 100px;
   min-width: 400px;
   width: 300px;
+  border-top: 4px solid #f7404b;
+
 }
 
 .sample-item-3 {
@@ -138,6 +143,8 @@ video {
   height: 100px;
   min-width: 400px;
   width: 500px;
+  border-top: 4px solid #f7404b;
+
 }
 
 *,
@@ -158,3 +165,4 @@ video {
   transition-property: left;
   transition-timing-function: linear;
 }
+
