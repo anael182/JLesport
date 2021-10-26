@@ -1,7 +1,4 @@
 
-*{
-    background-color: #050810;
-}
   .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;
@@ -51,6 +48,7 @@
   
   .navbar-light{
       border-bottom: 4px solid #f7404b;
+      background-color: #050810;
 
   }
 
