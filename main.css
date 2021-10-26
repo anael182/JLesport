@@ -76,3 +76,11 @@ video {
 .video_background {
   background-color: #050810;
 }
+
+.link_footer {
+  color: #fff;
+}
+
+.link_footer:hover {
+  border-bottom: 2px solid #f7404b;
+}
