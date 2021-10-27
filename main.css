@@ -93,27 +93,53 @@ video {
 }
 
 .twitter{
-  height: 30px;
+  height: 20px;
+  margin-left: 8px;
 }
 
 .youtube{
-  height: 30px;
-  margin-left: 5px;
+  height: 20px;
+  margin-left: 8px;
 }
 
 .instagram{
-  height: 30px;
-  margin-left: 5px;
+  height: 20px;
+  margin-left: 8px;
 }
 
 .twitch{
-  height: 30px;
-  margin-left: 5px;
+  height: 20px;
+  margin-left: 8px;
 }
 
 .tiktok{
-  height: 30px;
-  margin-left: 5px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+.twitter:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.youtube:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.instagram:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.twitch:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.tiktok:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
 }
 
 .horizontal-scrolling-banner {
