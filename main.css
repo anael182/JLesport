@@ -148,7 +148,7 @@ video {
 
 .sample-item-1 {
   background-color: #1b2dcf;
-  height: 100px;
+  height: 80px;
   min-width: 400px;
   width: 300px;
   border-top: 4px solid #f7404b;
@@ -157,7 +157,7 @@ video {
 
 .sample-item-2 {
   background-color: #fff;
-  height: 100px;
+  height: 80px;
   min-width: 400px;
   width: 300px;
   border-top: 4px solid #f7404b;
@@ -166,7 +166,7 @@ video {
 
 .sample-item-3 {
   background-color: #D81E5B;
-  height: 100px;
+  height: 80px;
   min-width: 400px;
   width: 500px;
   border-top: 4px solid #f7404b;
