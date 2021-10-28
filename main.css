@@ -152,6 +152,8 @@ video {
   min-width: 400px;
   width: 300px;
   border-top: 4px solid #f7404b;
+  border-bottom: 4px solid #f7404b;
+
 
 }
 
@@ -161,6 +163,8 @@ video {
   min-width: 400px;
   width: 300px;
   border-top: 4px solid #f7404b;
+  border-bottom: 4px solid #f7404b;
+
 
 }
 
@@ -170,6 +174,8 @@ video {
   min-width: 400px;
   width: 500px;
   border-top: 4px solid #f7404b;
+  border-bottom: 4px solid #f7404b;
+
 
 }
 
@@ -190,5 +196,14 @@ video {
   transform: translateZ(0);
   transition-property: left;
   transition-timing-function: linear;
+}
+
+.body-news {
+  height: 2000px;
+  background-color: #292d37; 
+}
+
+.footer__title {
+  margin-top:20px;
 }
 
