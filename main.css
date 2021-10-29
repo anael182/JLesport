@@ -199,11 +199,17 @@ video {
 }
 
 .body-news {
+  margin-left: 10%;
+  margin-right: 10%;
   height: 2000px;
   background-color: #292d37; 
 }
 
 .footer__title {
   margin-top:20px;
+}
+
+.body-background {
+  background-color: #050810;
 }
 
