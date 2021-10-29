@@ -1,56 +1,217 @@
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
 
-  .navbar-light .navbar-brand {
+.navbar-light .navbar-brand:hover {
     color: #fff;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-  }
-  
-  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-    color: #fff;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
-  .navbar-toggler {
-    background: #fff;
-  }
-  
-  .navbar-nav {
-    text-align: center;
-  }
-  
-  .nav-link {
-    padding: .2rem 1rem;
-  }
-  .nav-link:hover {
-    border-bottom: 1px solid #f7404b;
     transform: scale(1.1);
-    transition-duration: 0.5s;
-  }
-  
-  .nav-link.active,.nav-link:focus{
-    color: #fff;
-  }
-  
-  .navbar-toggler {
-    padding: 1px 5px;
-    font-size: 18px;
-    line-height: 0.3;
-  }
-  
-  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
-  }
-  
-  .navbar-light{
-      border-bottom: 4px solid #f7404b;
-      background-color: #050810;
+    transition-duration: 0.3s;
+}
 
-  }
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+  border-color: #f7404b;
+}
+.nav-link:hover {
+  border-bottom: 2px solid #f7404b;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.nav-link.active,
+.nav-link:focus {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-light {
+  border-bottom: 4px solid #f7404b;
+  background-color: #050810;
+}
+
+.footer {
+  color: #fff;
+  background-color: #050810;
+  border-top:  4px solid #f7404b;
+}
+
+.footer_title {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+video {
+  width: 100%;
+  max-height: 100%;
+}
+
+.video_background {
+  background-color: #050810;
+  margin-bottom:-6px;
+}
+
+.link_footer {
+  color: #fff;
+}
+
+.link_footer:hover {
+  border-bottom: 2px solid #f7404b;
+  cursor: pointer;
+}
+
+.navbar-text {
+  background-color: #fff;
+}
+
+.twitter{
+  height: 20px;
+  margin-left: 8px;
+}
+
+.youtube{
+  height: 20px;
+  margin-left: 8px;
+}
+
+.instagram{
+  height: 20px;
+  margin-left: 8px;
+}
+
+.twitch{
+  height: 20px;
+  margin-left: 8px;
+}
+
+.tiktok{
+  height: 20px;
+  margin-left: 8px;
+}
+
+.twitter:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.youtube:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.instagram:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.twitch:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.tiktok:hover{
+  transform: scale(1.2) rotate(360deg);
+  transition-duration: 1s;
+}
+
+.horizontal-scrolling-banner {
+  overflow: hidden;
+}
+
+.sample-item-1 {
+  background-color: #1b2dcf;
+  height: 80px;
+  min-width: 400px;
+  width: 300px;
+  border-top: 4px solid #f7404b;
+  border-bottom: 4px solid #f7404b;
+
+
+}
+
+.sample-item-2 {
+  background-color: #fff;
+  height: 80px;
+  min-width: 400px;
+  width: 300px;
+  border-top: 4px solid #f7404b;
+  border-bottom: 4px solid #f7404b;
+
+
+}
+
+.sample-item-3 {
+  background-color: #D81E5B;
+  height: 80px;
+  min-width: 400px;
+  width: 500px;
+  border-top: 4px solid #f7404b;
+  border-bottom: 4px solid #f7404b;
+
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+.horizontal-scrolling-banner__helper-wrapper {
+  align-items: center;
+  display: flex;
+  left: 0;
+  transform: translateZ(0);
+  transition-property: left;
+  transition-timing-function: linear;
+}
+
+.body-news {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 2000px;
+  background-color: #292d37; 
+}
+
+.footer__title {
+  margin-top:20px;
+}
+
+.body-background {
+  background-color: #050810;
+}
 
   footer {
     padding-top: 2%;
