@@ -52,3 +52,22 @@
 
   }
 
+  footer {
+    padding-top: 2%;
+    border-top: 4px solid #f7404b;
+    background-color: #050810;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reseau {
+    margin-left: 8%;
+  }
+
+  .reseau a {
+    color: #f7404b;
+  }
+
+  .reseau a:hover {
+    color: #292d37;
+  }
