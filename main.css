@@ -1,3 +1,5 @@
+/* NAV START */
+
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 25px;
@@ -55,42 +57,13 @@
   background-color: #050810;
 }
 
-.footer {
-  color: #fff;
-  background-color: #050810;
-  border-top:  4px solid #f7404b;
-}
-
-.footer_title {
-  color: #fff;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-video {
-  width: 100%;
-  max-height: 100%;
-}
-
-.video_background {
-  background-color: #050810;
-  margin-bottom:-6px;
-}
-
-.link_footer {
-  color: #fff;
-}
-
-.link_footer:hover {
-  border-bottom: 2px solid #f7404b;
-  cursor: pointer;
-}
-
 .navbar-text {
   background-color: #fff;
 }
+
+/* NAV END */
+
+/* R S START */
 
 .twitter{
   height: 20px;
@@ -142,6 +115,18 @@ video {
   transition-duration: 1s;
 }
 
+/* R S END */
+
+video {
+  width: 100%;
+  max-height: 1039px;
+}
+
+.video_background {
+  background-color: #050810;
+  margin-bottom:-6px;
+}
+
 .horizontal-scrolling-banner {
   overflow: hidden;
 }
@@ -188,7 +173,6 @@ video {
   position: relative;
 }
 
-
 .horizontal-scrolling-banner__helper-wrapper {
   align-items: center;
   display: flex;
@@ -205,20 +189,27 @@ video {
   background-color: #292d37; 
 }
 
-.footer__title {
-  margin-top:20px;
-}
-
 .body-background {
   background-color: #050810;
 }
 
-  footer {
+/* FOOTER START */
+
+  .footer {
     padding-top: 2%;
     border-top: 4px solid #f7404b;
     background-color: #050810;
     display: flex;
     justify-content: space-between;
+  }
+
+  .footer_title {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top:20px;
   }
 
   .reseau {
@@ -232,3 +223,14 @@ video {
   .reseau a:hover {
     color: #292d37;
   }
+
+  .link_footer {
+    color: #fff;
+  }
+  
+  .link_footer:hover {
+    border-bottom: 2px solid #f7404b;
+    cursor: pointer;
+  }
+
+  /* FOOTER END */
