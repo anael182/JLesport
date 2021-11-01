@@ -6,6 +6,10 @@
   letter-spacing: 2px;
 }
 
+.navbar-light .navbar-brand:focus {
+  color: #fff;
+}
+
 .navbar-light .navbar-brand:hover {
     color: #fff;
     transform: scale(1.1);
