@@ -157,8 +157,6 @@ video {
   width: 300px;
   border-top: 4px solid #f7404b;
   border-bottom: 4px solid #f7404b;
-
-
 }
 
 .sample-item-2 {
@@ -168,8 +166,6 @@ video {
   width: 300px;
   border-top: 4px solid #f7404b;
   border-bottom: 4px solid #f7404b;
-
-
 }
 
 .sample-item-3 {
@@ -179,8 +175,6 @@ video {
   width: 500px;
   border-top: 4px solid #f7404b;
   border-bottom: 4px solid #f7404b;
-
-
 }
 
 *,
@@ -202,18 +196,40 @@ video {
   transition-timing-function: linear;
 }
 
+<<<<<<< Updated upstream
 .body-news {
   margin-left: 10%;
   margin-right: 10%;
+=======
+.body_container {
+  display: flex;
+  flex-direction: column;
+>>>>>>> Stashed changes
   height: 2000px;
+  background-color: #050810;
+}
+
+.body-news {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  height: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  height: 1800px;
   background-color: #292d37; 
 }
 
 .footer__title {
   margin-top:20px;
+  margin-bottom:20px;
 }
 
+<<<<<<< Updated upstream
 .body-background {
   background-color: #050810;
 }
+=======
+>>>>>>> Stashed changes
 
