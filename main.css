@@ -196,15 +196,14 @@ video {
   transition-timing-function: linear;
 }
 
-<<<<<<< Updated upstream
 .body-news {
   margin-left: 10%;
   margin-right: 10%;
-=======
-.body_container {
+}
+
+.body-background {
   display: flex;
   flex-direction: column;
->>>>>>> Stashed changes
   height: 2000px;
   background-color: #050810;
 }
@@ -225,11 +224,4 @@ video {
   margin-top:20px;
   margin-bottom:20px;
 }
-
-<<<<<<< Updated upstream
-.body-background {
-  background-color: #050810;
-}
-=======
->>>>>>> Stashed changes
 
