@@ -170,9 +170,11 @@
 .body-news {
   margin-left: 10%;
   margin-right: 10%;
-  height: 1000px;
+  height: auto;
   background-color: #292d37; 
   min-height: 100vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .body-background {
@@ -403,3 +405,20 @@
   }
 
   /* FOOTER END */
+
+  @media (max-width: 991px) {
+    .coach {
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+    
+    .team {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container{
+      margin-bottom: 5%;
+    }
+  }
