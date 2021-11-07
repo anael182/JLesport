@@ -189,9 +189,8 @@
   }
 
   .coach {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
   }
 
   .team {
