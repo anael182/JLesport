@@ -215,13 +215,11 @@ video {
   height: 80px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 3%;
-  height: 1800px;
+  height: 2000px;
   background-color: #292d37; 
 }
 
 .footer__title {
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top:5%;
+  margin-bottom:5%;
 }
-
