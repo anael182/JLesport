@@ -1,5 +1,9 @@
 /* NAV START */
 
+.navbar {
+  z-index: 10001;
+}
+
 .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;
@@ -203,7 +207,7 @@
     position: relative;
   }
   
-  .container .card{
+.card{
     position: relative;
     width: 220px;
     height: 350px;
@@ -212,7 +216,7 @@
     overflow: hidden;
   }
   
-  .container .card:before{
+.card:before{
     content: '';
     position: absolute;
     top: 0;
@@ -224,11 +228,11 @@
     transition: 0.5s ease-in-out;
   }
   
-  .container .card:hover:before{
+.card:hover:before{
     clip-path: circle(300px at 80% -20%);
   }
   
-  .container .card:after{
+.card:after{
     content: 'Job';
     position: absolute;
     top: 30%;
@@ -239,7 +243,7 @@
     color: rgba(253, 185, 185, 0.05)
   }
   
-  .container .card .imgBx{
+.card .imgBx{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -249,13 +253,13 @@
     transition: 0.5s;
   }
   
-  .container .card:hover .imgBx{
+.card:hover .imgBx{
     top: 0%;
     transform: translateY(0%);
       
   }
   
-  .container .card .imgBx img{
+.card .imgBx img{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -265,12 +269,12 @@
     transition: 0.5s;
   }
 
-  .container .card:hover .imgBx img{
+.card:hover .imgBx img{
     top: 30%;
     width: 100px;
   }
   
-  .container .card .contentBx{
+.card .contentBx{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -280,11 +284,11 @@
     z-index: 10;
   }
   
-  .container .card:hover .contentBx{
+.card:hover .contentBx{
     height: 210px;
   }
   
-  .container .card .contentBx h2{
+.card .contentBx h2{
     position: relative;
     font-weight: 600;
     letter-spacing: 1px;
@@ -292,7 +296,7 @@
     margin: 0;
   }
   
-  .container .card .contentBx .size, .container .card .contentBx .color {
+.card .contentBx .size, .container .card .contentBx .color {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,19 +307,19 @@
     padding-bottom: 0;
   }
   
-  .container .card:hover .contentBx .size{
+.card:hover .contentBx .size{
     opacity: 1;
     visibility: visible;
     transition-delay: 0.5s;
   }
   
-  .container .card:hover .contentBx .color{
+.card:hover .contentBx .color{
     opacity: 1;
     visibility: visible;
     transition-delay: 0.6s;
   }
   
-  .container .card .contentBx .size h3, .container .card .contentBx .color h3{
+.card .contentBx .size h3, .container .card .contentBx .color h3{
     color: #fff;
     font-weight: 300;
     font-size: 13px;
@@ -324,28 +328,28 @@
     margin-right: 10px;
   }
   
-  .container .card .contentBx .size li{
+.card .contentBx .size li{
     list-style:none;
     margin: 0 5px;
     transition: 0.5s;
   }
   
-  .container .card .contentBx .size li a{
+.card .contentBx .size li a{
     color: #f7404b;
     transition: 0.5s;
     cursor: pointer;
   }
 
-  .container .card .contentBx .size li a:hover{
+.card .contentBx .size li a:hover{
     color: #fff;
     cursor: pointer;
   }
 
-  .container .card .contentBx .size span:hover{
+.card .contentBx .size span:hover{
     background: #f7404b;
   }
   
-  .container .card .contentBx .color span{
+.card .contentBx .color span{
     width: 20px;
     height: 20px;
     background: #f7404b;
@@ -354,19 +358,19 @@
     cursor: pointer;
   }
   
-  .container .card .contentBx .color span:nth-child(2){
+.card .contentBx .color span:nth-child(2){
     background: #9bdc28;
   }
   
-  .container .card .contentBx .color span:nth-child(3){
+.card .contentBx .color span:nth-child(3){
     background: #03a9f4;
   }
   
-  .container .card .contentBx .color span:nth-child(4){
+  .card .contentBx .color span:nth-child(4){
     background: #e91e63;
   }
   
-  .container .card:hover .contentBx a{
+.card:hover .contentBx a{
     opacity: 1;
     transform: translateY(0px);
     transition-delay: 0.75s;
@@ -391,6 +395,10 @@
       font-weight: bold;
       letter-spacing: 2px;
       margin-top:20px;
+    }
+
+    .legal{
+      color: #fff;
     }
   
     .reseau {
