@@ -170,7 +170,7 @@
 .body-news {
   margin-left: 10%;
   margin-right: 10%;
-  height: 2000px;
+  height: 1000px;
   background-color: #292d37; 
   min-height: 100vh;
 }
@@ -190,12 +190,14 @@
 
 .coach {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  justify-items: center;
 }
 
 .team {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .container{
