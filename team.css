@@ -212,6 +212,7 @@
   background: #050810;
   border-radius: 20px;
   overflow: hidden;
+  margin: auto;
 }
 
 .container .card:before{
@@ -420,5 +421,9 @@
 
     .container{
       margin-bottom: 5%;
+    }
+
+    .body-news {
+      padding-top: 212px;
     }
   }
