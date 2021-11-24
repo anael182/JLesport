@@ -1,3 +1,5 @@
+/* NAV START */
+
 .navbar-light .navbar-brand {
   color: #fff;
   font-size: 25px;
@@ -59,42 +61,13 @@
   background-color: #050810;
 }
 
-.footer {
-  color: #fff;
-  background-color: #050810;
-  border-top:  4px solid #f7404b;
-}
-
-.footer_title {
-  color: #fff;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
-
-video {
-  width: 100%;
-  max-height: 100%;
-}
-
-.video_background {
-  background-color: #050810;
-  margin-bottom:-6px;
-}
-
-.link_footer {
-  color: #fff;
-}
-
-.link_footer:hover {
-  border-bottom: 2px solid #f7404b;
-  cursor: pointer;
-}
-
 .navbar-text {
   background-color: #fff;
 }
+
+/* NAV END */
+
+/* R S START */
 
 .twitter{
   height: 20px;
@@ -146,6 +119,18 @@ video {
   transition-duration: 1s;
 }
 
+/* R S END */
+
+video {
+  width: 100%;
+  max-height: 1039px;
+}
+
+.video_background {
+  background-color: #050810;
+  margin-bottom:-6px;
+}
+
 .horizontal-scrolling-banner {
   overflow: hidden;
 }
@@ -186,7 +171,6 @@ video {
   position: relative;
 }
 
-
 .horizontal-scrolling-banner__helper-wrapper {
   align-items: center;
   display: flex;
@@ -199,6 +183,8 @@ video {
 .body-news {
   margin-left: 10%;
   margin-right: 10%;
+  height: 2000px;
+  background-color: #292d37; 
 }
 
 .body-background {
@@ -208,18 +194,48 @@ video {
   background-color: #050810;
 }
 
-.body-news {
-  display: flex;
-  justify-content: center;
-  background-color: #fff;
-  height: 80px;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 2000px;
-  background-color: #292d37; 
-}
+/* FOOTER START */
 
-.footer__title {
-  margin-top:5%;
-  margin-bottom:5%;
-}
+  .footer {
+    padding-top: 2%;
+    border-top: 4px solid #f7404b;
+    background-color: #050810;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_title {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top:20px;
+  }
+
+  .reseau {
+    margin-left: 8%;
+  }
+
+  .reseau a {
+    color: #f7404b;
+  }
+
+  .reseau a:hover {
+    color: #292d37;
+  }
+
+  .link_footer {
+    color: #fff;
+  }
+  
+  .link_footer:hover {
+    border-bottom: 2px solid #f7404b;
+    cursor: pointer;
+  }
+
+  .legal-container {
+    color: #fff;
+  }
+
+  /* FOOTER END */
