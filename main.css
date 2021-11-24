@@ -233,4 +233,8 @@ video {
     cursor: pointer;
   }
 
+  .legal-container {
+    color: #fff;
+  }
+
   /* FOOTER END */

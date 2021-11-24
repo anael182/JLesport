@@ -118,6 +118,7 @@
   /* R S END */
   
   .horizontal-scrolling-banner {
+    padding-top: 65px;
     overflow: hidden;
   }
   
@@ -388,4 +389,8 @@
       .body-news {
         padding-top: 212px;
       }
+    }
+
+    .legal-container {
+      color: #fff;
     }
