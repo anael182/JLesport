@@ -183,8 +183,17 @@ video {
 .body-news {
   margin-left: 10%;
   margin-right: 10%;
+  margin-top: 3%;
   height: 2000px;
-  background-color: #292d37; 
+  background-color: #050810; 
+  text-align: center;
+}
+
+.latest-news{
+  display: inline-block;
+  color: #fff;
+  border-left: #f7404b solid 4px;
+  text-indent: 15px;
 }
 
 .body-background {
@@ -237,5 +246,9 @@ video {
   .legal-container {
     color: #fff;
   }
+
+  /* .logojl-footer {
+    margin-top: -30px;
+  } */
 
   /* FOOTER END */
