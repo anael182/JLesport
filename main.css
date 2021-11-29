@@ -123,7 +123,6 @@
 
 video {
   width: 100%;
-  max-height: 1039px;
 }
 
 .video_background {
@@ -181,10 +180,9 @@ video {
 }
 
 .body-news {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 3%;
-  height: 2000px;
   background-color: #050810; 
   text-align: center;
 }
@@ -194,12 +192,25 @@ video {
   color: #fff;
   border-left: #f7404b solid 4px;
   text-indent: 15px;
+  margin-bottom: 5%;
+}
+
+.latest-news-subtitle{
+  text-align: center;
+  color: #fff;
+  margin-bottom:5%;
+}
+
+.latest-news-paragraph {
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5%;
 }
 
 .body-background {
   display: flex;
   flex-direction: column;
-  height: 2000px;
   background-color: #050810;
 }
 
@@ -247,8 +258,5 @@ video {
     color: #fff;
   }
 
-  /* .logojl-footer {
-    margin-top: -30px;
-  } */
 
   /* FOOTER END */
