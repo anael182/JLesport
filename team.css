@@ -364,6 +364,7 @@
   transition-delay: 0.75s;
   
 }
+
 /* TEAM END */
 
 /* FOOTER START */
@@ -429,6 +430,15 @@
     }
   }
 
+  .logojl-footer {
+    margin-top: -10%;
+    margin-left: -10%;
+  }
+
   .legal-container {
     color: #fff;
+    text-align: center;
+    margin-top: 2%;
+    border-top: 2px solid #f7404b;
   }
+  
