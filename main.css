@@ -132,6 +132,7 @@ video {
 
 .horizontal-scrolling-banner {
   overflow: hidden;
+  border-bottom: 4px solid #f7404b;
 }
 
 .sample-item-1 {
