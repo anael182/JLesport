@@ -176,6 +176,9 @@
   min-height: 100vh;
   padding-top: 8%;
   padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .body-background {
@@ -191,16 +194,28 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.latest-news{
+  display: inline-block;
+  color: #fff;
+  border-left: #f7404b solid 4px;
+  text-indent: 15px;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .coach {
   display: flex;
   justify-content: space-around;
   margin-bottom: 5%;
+  width: 100%;
 }
 
 .team {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .container1{
