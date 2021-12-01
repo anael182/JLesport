@@ -174,7 +174,7 @@
     height: auto;
     background-color: #292d37; 
     min-height: 100vh;
-    padding-top: 3%;
+    padding-top: 8%;
     padding-bottom: 5%;
   }
   
@@ -186,7 +186,6 @@
 
   .ligne {
     display: flex;
-    margin-top: 5%;
   }
 
   .card {
@@ -313,12 +312,6 @@
     color: #e03616;
     text-decoration: none
   }
-  
-  @media (max-width:800px) {
-    .ligne {
-      flex-direction: column;
-    }
-  }
 
   /* NEWS END */
   
@@ -395,26 +388,16 @@
   /* FOOTER END */
   
     @media (max-width: 991px) {
-      .coach {
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 5%;
-      }
-      
-      .team {
+      .ligne {
         flex-direction: column;
         justify-content: center;
       }
-  
+
       .container{
         margin-bottom: 5%;
       }
   
       .body-news {
-        padding-top: 212px;
+        padding-top: 14%;
       }
-    }
-
-    .legal-container {
-      color: #fff;
     }
