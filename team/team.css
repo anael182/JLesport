@@ -278,7 +278,7 @@
 
 .container1 .card .imgBx img{
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   border-radius: 50%;
   transform: translate(-50%, -50%);
@@ -328,6 +328,7 @@
   opacity: 1;
   visibility: visible;
   transition-delay: 0.5s;
+  margin-top: 30%;
 }
 
 .container1 .card:hover .contentBx .color{
