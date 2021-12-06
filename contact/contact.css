@@ -224,6 +224,8 @@
   
     @media (max-width: 800px) {
       .logojl-footer {
+        margin-top: -0%;
+        margin-left: -0%;
         margin-top: -7%;
         margin-bottom: -7%;     
       }

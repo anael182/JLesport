@@ -121,49 +121,6 @@
   
   /* R S END */
   
-  video {
-    width: 100%;
-  }
-  
-  .video_background {
-    background-color: #dfdfdf;
-    text-align: center;
-    margin-bottom: -1%;
-  }
-  
-  
-  .horizontal-scrolling-banner {
-    overflow: hidden;
-    border-bottom: 4px solid #f7404b;
-  }
-  
-  .sample-item-1 {
-    background-color: #1b2dcf;
-    height: 80px;
-    min-width: 400px;
-    width: 300px;
-    border-top: 4px solid #f7404b;
-    border-bottom: 4px solid #f7404b;
-  }
-  
-  .sample-item-2 {
-    background-color: #dfdfdf;
-    height: 80px;
-    min-width: 400px;
-    width: 300px;
-    border-top: 4px solid #f7404b;
-    border-bottom: 4px solid #f7404b;
-  }
-  
-  .sample-item-3 {
-    background-color: #D81E5B;
-    height: 80px;
-    min-width: 400px;
-    width: 500px;
-    border-top: 4px solid #f7404b;
-    border-bottom: 4px solid #f7404b;
-  }
-  
   *,
   *::before,
   *::after {
@@ -208,7 +165,6 @@
     display: flex;
     flex-direction: column;
     background-color: #050810;
-    margin-top: 2%;
   }
   
   
@@ -274,7 +230,7 @@
       border-top: 2px solid #f7404b;
     }
   
-    @media (max-width: 800px) {
+    @media (max-width: 600px) {
       .legal-container {
         margin-top: 7%;
        
