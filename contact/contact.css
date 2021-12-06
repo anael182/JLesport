@@ -131,15 +131,6 @@
     position: relative;
   }
   
-  .horizontal-scrolling-banner__helper-wrapper {
-    align-items: center;
-    display: flex;
-    left: 0;
-    transform: translateZ(0);
-    transition-property: left;
-    transition-timing-function: linear;
-  }
-  
   .body-news {
     margin-left: 30%;
     margin-right: 30%;
@@ -148,8 +139,6 @@
     text-align: center;
   }
   
-
-  
   .body-background {
     display: flex;
     flex-direction: column;
@@ -157,23 +146,23 @@
     margin-top: 5%;
   }
   
-  .container-iframe {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    border: #dfdfdf 2px solid;
+
+  .form-label {
+    color: #dfdfdf;
   }
-  
-  /* Then style the iframe to fit in the container div with full height and width */
-  .responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+
+  #contactForm{
+    margin-bottom: 10%;
+  }
+
+  .btn {
+    background-color: #f7404b;
+    border : 2px solid #dfdfdf;
+  }
+
+  .btn:hover{
+    background-color: #f7404b;
+    border : 2px solid #dfdfdf;
   }
   
   /* FOOTER START */
