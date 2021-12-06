@@ -1,7 +1,7 @@
 /* NAV START */
 
 .navbar-light .navbar-brand {
-  color: #fff;
+  color: #dfdfdf;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
@@ -9,17 +9,17 @@
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #fff;
+    color: #dfdfdf;
     transform: scale(1.1);
     transition-duration: 0.3s;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .navbar-toggler {
-  background: #fff;
+  background: #dfdfdf;
 }
 
 .navbar-nav {
@@ -38,7 +38,7 @@
 
 .nav-link.active,
 .nav-link:focus {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .navbar-toggler {
@@ -49,7 +49,7 @@
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .navbar-light {
@@ -58,7 +58,7 @@
 }
 
 .navbar-text {
-  background-color: #fff;
+  background-color: #dfdfdf;
 }
 
 /* NAV END */
@@ -132,7 +132,7 @@
 }
 
 .sample-item-2 {
-  background-color: #fff;
+  background-color: #dfdfdf;
   height: 80px;
   min-width: 400px;
   width: 300px;
@@ -196,7 +196,7 @@
 
 .latest-news{
   display: inline-block;
-  color: #fff;
+  color: #dfdfdf;
   border-left: #f7404b solid 4px;
   text-indent: 15px;
   margin-bottom: 5%;
@@ -309,7 +309,7 @@
   position: relative;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #fff;
+  color: #dfdfdf;
   margin: 0;
 }
 
@@ -338,7 +338,7 @@
 }
 
 .container1 .card .contentBx .size h3, .container .card .contentBx .color h3{
-  color: #fff;
+  color: #dfdfdf;
   font-weight: 300;
   font-size: 13px;
   text-transform: uppercase;
@@ -359,7 +359,7 @@
 }
 
 .container1 .card .contentBx .size li a:hover{
-  color: #fff;
+  color: #dfdfdf;
   cursor: pointer;
 }
 
@@ -396,7 +396,7 @@
 }
 
 .footer_title {
-  color: #fff;
+  color: #dfdfdf;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
@@ -417,7 +417,7 @@
 }
 
 .link_footer {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .link_footer:hover {
@@ -441,7 +441,7 @@
  }
 
 .legal-container {
-  color: #fff;
+  color: #dfdfdf;
   text-align: center;
   margin-top: 2%;
   border-top: 2px solid #f7404b;

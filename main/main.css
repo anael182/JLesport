@@ -1,7 +1,7 @@
 /* NAV START */
 
 .navbar-light .navbar-brand {
-  color: #fff;
+  color: #dfdfdf;
   font-size: 25px;
   text-transform: uppercase;
   font-weight: bold;
@@ -9,21 +9,21 @@
 }
 
 .navbar-light .navbar-brand:focus {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #fff;
+    color: #dfdfdf;
     transform: scale(1.1);
     transition-duration: 0.3s;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .navbar-toggler {
-  background: #fff;
+  background: #dfdfdf;
 }
 
 .navbar-nav {
@@ -42,7 +42,7 @@
 
 .nav-link.active,
 .nav-link:focus {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .navbar-toggler {
@@ -53,7 +53,7 @@
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
+  color: #dfdfdf;
 }
 
 .navbar-light {
@@ -62,7 +62,7 @@
 }
 
 .navbar-text {
-  background-color: #fff;
+  background-color: #dfdfdf;
 }
 
 /* NAV END */
@@ -147,7 +147,7 @@ video {
 }
 
 .sample-item-2 {
-  background-color: #fff;
+  background-color: #dfdfdf;
   height: 80px;
   min-width: 400px;
   width: 300px;
@@ -192,7 +192,7 @@ video {
 
 .latest-news{
   display: inline-block;
-  color: #fff;
+  color: #dfdfdf;
   border-left: #f7404b solid 4px;
   text-indent: 15px;
   margin-bottom: 5%;
@@ -200,13 +200,13 @@ video {
 
 .latest-news-subtitle{
   text-align: center;
-  color: #fff;
+  color: #dfdfdf;
   margin-bottom:5%;
 }
 
 .latest-news-paragraph {
   text-align: left;
-  color: #fff;
+  color: #dfdfdf;
   font-size: 20px;
   margin-bottom: 5%;
   margin-top: 5%;
@@ -216,6 +216,7 @@ video {
   display: flex;
   flex-direction: column;
   background-color: #050810;
+  
 }
 
 .container-iframe {
@@ -223,7 +224,7 @@ video {
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  border: white 2px solid;
+  border: #dfdfdf 2px solid;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -248,7 +249,7 @@ video {
   }
 
   .footer_title {
-    color: #fff;
+    color: #dfdfdf;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -269,7 +270,7 @@ video {
   }
 
   .link_footer {
-    color: #fff;
+    color: #dfdfdf;
   }
   
   .link_footer:hover {
@@ -293,7 +294,7 @@ video {
    }
 
   .legal-container {
-    color: #fff;
+    color: #dfdfdf;
     text-align: center;
     margin-top: 2%;
     border-top: 2px solid #f7404b;
