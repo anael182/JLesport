@@ -174,14 +174,42 @@
     height: auto;
     background-color: #292d37; 
     min-height: 100vh;
-    padding-top: 8%;
+    padding-top: 5%;
     padding-bottom: 5%;
   }
   
   .body-background {
     background-color: #050810;
   }
+
+  .score {
+    display: flex;
+    font-size: 22px;
+    color: #dfdfdf;
+  }
+
+  .score ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .score .win {
+    color :rgba(77, 143, 80, 0.87)
+  }
+
+  .score .loose {
+    color :rgba(168, 47, 47, 0.87)
+  }
   
+  .score li {
+    list-style-type: none;
+  }
+
+  .score li img {
+    width: 200px;
+    height: auto;
+  }
+
   /* NEWS START */
 
   .ligne {
