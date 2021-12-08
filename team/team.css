@@ -1,5 +1,9 @@
 /* NAV START */
 
+a {
+  text-decoration: none;
+}
+
 .navbar-light .navbar-brand {
   color: #dfdfdf;
   font-size: 25px;
