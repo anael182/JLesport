@@ -147,7 +147,6 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #050810;
-    margin-top: 5%;
   }
   
 
@@ -169,6 +168,13 @@ a {
     border : 2px solid #dfdfdf;
   }
 
+  .latest-news{
+    display: inline-block;
+    color: #dfdfdf;
+    border-left: #f7404b solid 4px;
+    text-indent: 15px;
+    margin-bottom: 5%;
+  }
   
   /* FOOTER START */
   
@@ -222,6 +228,12 @@ a {
         margin-left: -0%;
         margin-top: -7%;
         margin-bottom: -7%;     
+      }
+      .body-background {
+        display: flex;
+        flex-direction: column;
+        background-color: #050810;
+        margin-top: 5%;
       }
      }
   
