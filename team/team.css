@@ -207,7 +207,7 @@ a {
   width: 100%;
   height: 100%;
   background: #f7404b;
-  clip-path: circle(150px at 80% 20%);
+  clip-path: circle(160px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
 
@@ -216,7 +216,7 @@ a {
 }
 
 .container1 .card:after{
-  content: 'Job';
+  content: 'JL';
   position: absolute;
   top: 30%;
   left: -20%;
@@ -349,6 +349,10 @@ a {
   
 }
 
+.poste {
+  color: #dfdfdf;
+}
+
 /* TEAM END */
 
 /* FOOTER START */
@@ -397,7 +401,7 @@ a {
   
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .logojl-footer {
     margin-top: -0%;
     margin-left: -0%;

@@ -168,6 +168,7 @@ a {
     background-color: #f7404b;
     border : 2px solid #dfdfdf;
   }
+
   
   /* FOOTER START */
   
@@ -215,7 +216,7 @@ a {
       
     }
   
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
       .logojl-footer {
         margin-top: -0%;
         margin-left: -0%;
