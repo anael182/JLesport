@@ -218,14 +218,18 @@ a {
       
     }
   
-  @media (max-width: 1000px) {
-    .logojl-footer {
-      margin-top: -0%;
-      margin-left: -0%;
-      margin-top: -7%;
-      margin-bottom: -7%;     
-    }
-   }
+    @media (max-width: 1000px) {
+      .logojl-footer {
+        margin-top: -0%;
+        margin-left: -0%;
+        margin-top: -7%;
+        margin-bottom: -7%;     
+      }
+      .nav-link:hover {
+        border: none;
+        text-decoration: underline #f7404b 3px;
+      }
+     }
   
     .legal-container {
       color: #dfdfdf;

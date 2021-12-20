@@ -295,6 +295,10 @@ video {
       margin-top: -7%;
       margin-bottom: -7%;     
     }
+    .nav-link:hover {
+      border: none;
+      text-decoration: underline #f7404b 3px;
+    }
    }
 
   .legal-container {
