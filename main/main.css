@@ -298,6 +298,10 @@ video {
       border: none;
       text-decoration: underline #f7404b 3px;
     }
+    .body-news {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
    }
 
   .legal-container {
