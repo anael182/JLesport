@@ -170,7 +170,7 @@ a {
 
 .coach {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 5%;
   width: 100%;
 }
