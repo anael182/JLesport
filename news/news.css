@@ -173,17 +173,28 @@ a {
   }
   
   .body-news {
-    margin-left: 10%;
-    margin-right: 10%;
-    height: auto;
-    background-color: #292d37; 
-    min-height: 100vh;
-    padding-top: 8%;
-    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #050810; 
+    text-align: center;
   }
   
   .body-background {
     background-color: #050810;
+  }
+
+  .latest-news-paragraph {
+    text-align: left;
+    color: #dfdfdf;
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .latest-news-subtitle{
+    text-align: center;
+    color: #dfdfdf;
+    margin-bottom:5%;
   }
   
   /* NEWS START */
@@ -317,6 +328,35 @@ a {
     text-decoration: none
   }
 
+  .latest-news{
+    display: inline-block;
+    color: #dfdfdf;
+    border-left: #f7404b solid 4px;
+    text-indent: 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+
+  .banner-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    border: #dfdfdf 2px solid;
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;;
+  }
+
   /* NEWS END */
   
   /* FOOTER START */
@@ -374,6 +414,17 @@ a {
     .nav-link:hover {
       border: none;
       text-decoration: underline #f7404b 3px;
+    }
+    .body-news {
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-bottom: 10%;
+    }
+    .body-background {
+      margin-top: -10%;
+    }
+    .latest-news {
+      margin-bottom: 7%;
     }
    }
 
