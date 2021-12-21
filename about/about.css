@@ -228,6 +228,10 @@ a {
         border: none;
         text-decoration: underline #f7404b 3px;
       }
+      .body-news {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
      }
   
     .legal-container {
@@ -236,14 +240,5 @@ a {
       margin-top: 2%;
       border-top: 2px solid #f7404b;
     }
-  
-    @media (max-width: 600px) {
-      .legal-container {
-        margin-top: 7%;
-       
-      }
-     }
-  
-  
     /* FOOTER END */
   
