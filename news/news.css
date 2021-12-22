@@ -182,6 +182,7 @@ a {
   .body-background {
     background-color: #050810;
     text-align: center;
+    padding-bottom: 5%;
   }
 
   .latest-news-paragraph {
@@ -334,7 +335,6 @@ a {
     color: #dfdfdf;
     border-left: #f7404b solid 4px;
     text-indent: 15px;
-    margin-bottom: 5%;
     margin-top: 5%;
   }
 
@@ -425,11 +425,8 @@ a {
       margin-right: 5%;
       margin-bottom: 10%;
     }
-    .body-background {
-      margin-top: -10%;
-    }
     .latest-news {
-      margin-bottom: 7%;
+      margin-bottom: 5%;
     }
    }
 
@@ -492,7 +489,7 @@ a {
   box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
   text-align: center;
   transition:all 0.4s;
-  background: url(https://unsplash.it/600/800?image=1061) center no-repeat;
+  background: url(../img/JoblifeCardImg.png) center no-repeat;
   background-size: 100%;
   margin: 1%;
 }
