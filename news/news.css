@@ -453,6 +453,9 @@ a {
 
     .card-container {
       display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
     }
   
     @media (max-width: 991px) {
