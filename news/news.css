@@ -357,6 +357,10 @@ a {
     height: auto;;
   }
 
+  .joueur {
+    border:#dfdfdf 2px solid;
+  }
+
   /* NEWS END */
   
   /* FOOTER START */
