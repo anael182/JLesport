@@ -178,6 +178,10 @@ a {
     background-color: #050810; 
     text-align: center;
   }
+
+  .body-news h2 {
+    margin-bottom : 5%;
+  }
   
   .body-background {
     background-color: #050810;
@@ -355,7 +359,7 @@ a {
     bottom: 0;
     right: 0;
     width: 100%;
-    height: auto;;
+    height: auto;
   }
 
   .joueur {
@@ -427,6 +431,14 @@ a {
     }
     .latest-news {
       margin-bottom: 5%;
+    }
+    .joueur {
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: auto;
     }
    }
 
