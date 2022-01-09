@@ -14,8 +14,6 @@
   <title>JOBLIFE</title>
   <meta name="description" content="Site officiel Joblife Esport D2 League of Legends">
   <link rel="shortcut icon" type="image/jpg" href="../img/LogoJL.svg" />
-  <script src="./main/button.js" type="text/javascript" defer></script>
-
 </head>
 
 <body>
@@ -156,6 +154,19 @@
         </div>
       </div>
   </footer>
+  <script type="text/javascript" defer>
+    $(window).ready(function(){
+    $(".boton").wrapInner('<div class=botontext></div>');
+        
+        $(".botontext").clone().appendTo( $(".boton") );
+        
+        $(".boton").append('<span class="twist"></span><span class="twist"></span><span class="twist"></span><span class="twist"></span>');
+        
+        $(".twist").css("width", "25%").css("width", "+=3px");
+    });
+console.log("je suis chargé");
+  </script>
+
 </body>
 
 </html>
