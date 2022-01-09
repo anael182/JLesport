@@ -7,3 +7,5 @@ $(window).ready(function(){
         
         $(".twist").css("width", "25%").css("width", "+=3px");
     });
+console.log("je suis chargé");
+    
